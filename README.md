@@ -1,6 +1,6 @@
 # Responsive Contact Form
 
-This is a responsive, mobile-first contact form that was made with HTML and CSS, utlizing CSS Grid Layout.  It includes some Font Awesome icons and an [Animate.css](https://daneden.github.io/animate.css/) entry animation.  It was adapted from a Traversy Media YouTube [video](https://youtu.be/Sb5qOa3R4hY).
+This is a responsive, mobile-first contact form that was made with HTML and CSS, utlizing CSS Grid Layout.  It includes some Font Awesome icons and a Firebase backend for storing form data.  It was adapted from two Traversy Media YouTube videos:  [form creation](https://youtu.be/Sb5qOa3R4hY) and [Firebase backend implementation](https://youtu.be/PP4Tr0l08NE).
 
 ## Screenshots
 
