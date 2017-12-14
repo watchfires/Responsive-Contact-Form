@@ -1,11 +1,11 @@
 // Initialize Firebase
 var config = {
-  apiKey: "AIzaSyCYn5vQbRAy5SMwYKCMRT_26RuU85J5AMU",
-  authDomain: "contact-form-60d93.firebaseapp.com",
-  databaseURL: "https://contact-form-60d93.firebaseio.com",
-  projectId: "contact-form-60d93",
-  storageBucket: "contact-form-60d93.appspot.com",
-  messagingSenderId: "289786501439"
+  apiKey: "AIzaSyCvuoCwTvfmJJ_uMfdSUEW3kQH8whSy8Xg",
+  authDomain: "contact-form-fb979.firebaseapp.com",
+  databaseURL: "https://contact-form-fb979.firebaseio.com",
+  projectId: "contact-form-fb979",
+  storageBucket: "contact-form-fb979.appspot.com",
+  messagingSenderId: "889555664595"
 };
 firebase.initializeApp(config);
 

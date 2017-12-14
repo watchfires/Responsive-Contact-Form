@@ -17,9 +17,6 @@
     <!-- Font Awesome CDN -->
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
-    <!-- Animate.css CDN -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css">
-
     <title>Acme Web Design</title>
   </head>
 
@@ -29,7 +26,7 @@
 
       <h1 class="brand"><span>Acme Web Design</span></h1>
 
-      <div class="wrapper animated bounceInLeft">
+      <div class="wrapper">
 
         <!-- COMPANY INFORMATION -->
         <div class="company-info">
@@ -46,35 +43,37 @@
         <div class="contact">
           <h3>E-mail Us</h3>
 
-          <form>
+          <div class="alert">Your message has been sent.</div>
+
+          <form id="contact-form">
             
             <p>
               <label>Name</label>
-              <input type="text" name="name">
+              <input type="text" name="name" id="name" required>
             </p>
 
             <p>
               <label>Company</label>
-              <input type="text" name="company">
+              <input type="text" name="company" id="company">
             </p>
 
             <p>
               <label>E-mail Address</label>
-              <input type="email" name="email">
+              <input type="email" name="email" id="email" required>
             </p>
 
             <p>
               <label>Phone Number</label>
-              <input type="text" name="phone">
+              <input type="text" name="phone" id="phone">
             </p>
 
             <p class="full">
               <label>Message</label>
-              <textarea name="message" rows="5"></textarea>
+              <textarea name="message" rows="5" id="message"></textarea>
             </p>
 
             <p class="full">
-              <button>Submit</button>
+              <button type="submit">Submit</button>
             </p>
 
           </form>
@@ -82,6 +81,12 @@
 
       </div> <!-- End .wrapper -->
     </div> <!-- End .container -->
+
+    <!-- FIREBASE -->
+    <script src="https://www.gstatic.com/firebasejs/4.8.0/firebase.js"></script>
+
+    <!-- EXTERNAL JAVASCRIPT -->
+    <script src="main.js"></script>
 
   </body>
 
